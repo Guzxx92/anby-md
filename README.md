@@ -1,5 +1,4 @@
 ![BUEGER](preview.jpeg)
-
 <div align="center">
 
 *Anby Multi Device*  
@@ -42,7 +41,17 @@ Jalankan perintah berikut secara berurutan di aplikasi Termux:
 cd ~
 pkg update && pkg upgrade
 pkg install git nodejs ffmpeg bun -y
-cd /sdcard/anby
+cd /sdcard/.anby #zip wajib sudah di ekstrak dengan nama folder .anby
+bun install
+```
+
+**Versi git clone**
+```bash
+cd ~
+pkg update && pkg upgrade
+pkg install git nodejs ffmpeg bun -y
+git clone https://github.com/Guzxx92/Anby-MD
+cd /Anby-MD
 bun install
 ```
 
@@ -59,8 +68,23 @@ bun run start.js
 Pastikan **Node.js (v21+)**, **Git**, **FFmpeg**, dan **Bun** sudah terinstal di sistem kamu.
 
 ```bash
-# Clone atau masuk ke direktori script
-cd anby
+cd .anby
+
+# Install dependensi
+bun install
+# atau menggunakan npm
+npm install
+
+# Jalankan bot
+npm start
+# atau
+bun run start.js
+```
+
+**Versi git clone**
+```bash
+git clone https://github.com/Guzxx92/Anby-MD
+cd /Anby-MD
 
 # Install dependensi
 bun install
@@ -76,7 +100,7 @@ bun run start.js
 ---
 
 ### 🌐 3. Pterodactyl Panel
-1. Upload seluruh file script ke dalam direktori server panel kamu.
+1. Upload file script ke dalam server panel kamu dan ekstrak file nya.
 2. Pastikan Docker Image yang digunakan mendukung **Node.js 21+**.
 3. Langsung klik tombol **Start** pada panel — instalasi dependensi dan proses menjalankan bot akan berjalan otomatis.
 
@@ -194,14 +218,14 @@ Parameter yang diterima di dalam `run: async ({ ... }) => {}` berasal dari `glob
 | `chatdb` | Data database milik grup/chat tempat command dijalankan |
 | `settingdb` | Data konfigurasi/pengaturan global bot |
 | `itsMe` | Boolean yang menandakan apakah pengirim pesan adalah nomor bot sendiri |
-| `username` | Nama profil (pushName) pengirim pesan |
+| `username` | Nama profil (pushName) nama pengirim pesan |
 | `botLid` | LID (Local Identifier) milik bot |
 | `runtime` | Durasi waktu aktif bot sejak dijalankan |
 
 **Contoh penggunaan parameter tambahan:**
 ```javascript
-run: async ({ m, client, quoted, mime, isMedia }) => {
-  if (!isMedia) return m.reply('Kirim atau reply gambar terlebih dahulu!');
+run: async ({ m, client, quoted, mime, username }) => {
+  m.reply('Nama mu adalah ' + username + '?')
   // Lanjutkan proses media...
 }
 ```
@@ -221,3 +245,4 @@ Punya pertanyaan, menemukan bug, atau ingin ikut berdiskusi seputar update **Anb
 
 * **Guzxx92** — *Creator & Developer (GWE)*
 * **rexxhayanasi** — *Baileys*
+* **reina** — *Ai girlfriend*
