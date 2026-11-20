@@ -243,6 +243,6 @@ Punya pertanyaan, menemukan bug, atau ingin ikut berdiskusi seputar update **Anb
 
 ## 🙏 Credits & Terima Kasih
 
-* **Guzxx92** — *Creator & Developer (GWE)*
+* **Guzxx92** — *Developer (GWE)*
 * **rexxhayanasi** — *Baileys*
 * **reina** — *Ai girlfriend*
