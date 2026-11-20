@@ -1,0 +1,29 @@
+*Type*: esm
+*Script*: Plugin (Rxjs)
+*Can run in*: All linux terminal or shell
+*Name*: Anby-md 
+*Creator*: @Guzxx92 (Dont forget me hahaah :D)
+*Session data*:
+- data/@etc/session/main
+- data/@etc/session/main/08xxxx (Multi)
+
+> Also, you can add more session by putting and rename the folder with number in session folder
+
+*how it work?*
+
+(Start & load the module)  
+start.js -> main.js.        -> sockets.js -
+-> [main.js] that the second root from this fucking code 
+
+event folder 
+-> contains only event code files, like messages-upsert
+
+serialize.js
+-> this file is really important, that file registered so many function to client (sockets)
+
+mommy-asmr.js
+-> this was bs, admin cuman ngarang
+
+ *Have fun pal* :D
+ Wanna be a team ?, sure i have purpose
+ 

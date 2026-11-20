@@ -1,0 +1,97 @@
+#₊ ──────୨───── 𖦹🍀୭˚.─────────୨────
+ # WA Bot - Anby md (X-Legacy)
+ # Copyright (C) 2026 @Guzxx92
+ # Licensed GPL-3.0
+ # Original Author: @Guzxx92 - wa.me/6283123448708
+ # Full license: www.gnu.org/licenses/gpl-3.0.txt
+#₊ ──────────୨ 𖦹 ID ୭˚.─────────୨────
+mess: # REPLY
+  join: '*💚 Berhasil masuk ke grup:*'
+  link: '*📡 Link tidak valid, coba link lain*'
+  ftime: "*⏱️ Format waktu salah!*\n- Contoh: 10s, 5m, 2h"
+  jadibot_del: '🧭 *Nomor jadibot ini berhasil dihapus*'
+  linked: '» Segera tautkan perangkat melalui menu ⛓️‍💥 Perangkat Tertaut. Kadaluarsa dalam 5m.'
+  clone_one: '😏 Pinter ya, *clone bikin clone baru*? Dengerin, lu gak bisa bikin jadibot lagi.'
+  clone_two: '🍂 *Nomor ini sudah terhubung sebagai bot.*'
+  find: "*🔍 Lagi cari apa?*"
+  success: "*Bet ✅ Command berhasil!*"
+  update: "*Bet ✅ Berhasil di update!*"
+  done: "*Beress ✅ Udah ya*"
+  owner: "*👑 Khusus owner. Jangan sentuh*"
+  owner_nowey: "👑 *Ditolak, lu bukan owner asli*"
+  realowner: '❗*Hey ini owner asli.*'
+  private: "*Khusus chat pribadi ‼️ Jangan pake di grup*"
+  group: "*Khusus grup ‼️*"
+  premium: "*☘️ Khusus premium. Upgrade dulu*"
+  queue: "*💫 Request lagi penuh, coba lagi nanti ya.*"
+  wait: "*⏳ Requesting... Mohon tunggu.*"
+  restart_suc: "*🍰 Berhasil restart*"
+  jadibot: "*Lu bukan user jadibot ❌*"
+  admin: "*Lu bukan admin ❌ Gak ada kuasa*"
+  botAdmin: "*Jadikan gw admin dulu dong (◍•ᴗ•◍)*"
+  cooldown: "*⏰ Tunggu @time dulu sebelum pake perintah ini lagi.*"
+  change: '🍡 Berhasil mengubah autoread menjadi'
+  banned: "*Lu ke banned ❌ Diam dulu.*"
+  error: "*🍅 Error. Coba lagi nanti!*"
+  limit: "🍟 *Limit lu habis, butuh @limit, limit lu: @limit_user*"
+  unavailable: "🎟️ *Perintah ini sudah tidak tersedia.*"
+  spam: "🐉 *Lu ke banned karena spam selama 10 menit*"
+  media: "🪸 *Kirim atau reply @media untuk pake perintah ini.*"
+  help:  "☘️*Perintah: @cmd*\n- Contoh: .@cmd @args\n- Bantuan: @example\n\n✨*ᴘᴇɴᴊᴇʟᴀꜱᴀɴ:*"
+  reply: "🍓*Reply dengan perintah: @cmd*\n- Contoh: .@cmd @args\n- Bantuan: @example\n\n✨*ᴘᴇɴᴊᴇʟᴀꜱᴀɴ:*\nUntuk pake perintah ini lu harus reply pesan seperti di gambar."
+  reply_or_tag: "*🌸 Reply atau tag pesan:*\n- Contoh tag: .@cmd @args\n\n✨*ᴘᴇɴᴊᴇʟᴀꜱᴀɴ:*\nUntuk pake perintah ini lu harus reply atau tag."
+  tag: "*🌸 Tag user untuk menjalankan perintah*"
+  code: "*💫 Tolong tambahkan kode!*"
+  fitur:
+    mode: "*💫 Mode salah (dibatalkan)*"
+    on: "*Fitur sudah ON ✅*"
+    off: "*Fitur sudah OFF ✅*"
+    maintenance: "*Sedang maintenance 🔧 Sabar ya*"
+    on_off: "*Ketik on/off untuk mengaktifkan @cmd 🌻*"
+  plugin:
+    owner: "*Bet ✅ sekarang dia jadi owner baru*"
+    del:
+      not: "*📖 File tidak ditemukan*"
+      more: "☘️ *Ditemukan lebih dari satu file:*"
+      found: "☘️ *Ketemu nih:*"
+      suc: "*🗑️ File berhasil dihapus:*"
+    add:
+      denied: "*❌ Path lu keluar dari project (ditolak)*"
+      ex: "❗ *File harus berekstensi .js*"
+      exist: "📚 *File sudah ada*"
+      suc: "*📁 File berhasil ditambahkan*"
+  member: 
+    a: '*🍅 Tidak ada member.*'
+    not: '*🍅 Member tidak ditemukan.*'
+    cr: '*🍅 Tidak bisa demote pembuat grup.*'
+    dem: '*🍅 Lu gak bisa demote diri sendiri.*'
+    warn: "\n⚠️ Proses dihentikan."
+  bot:
+    add: 'Hmp, gw gak mau di sini!'
+    promote: 'Makasih sayang, sekarang gw jadi admin baru ❤️'
+    demote: 'Hmm.. lu demote gw.. jahat banget.. (⁠っ⁠˘̩⁠╭⁠╮⁠˘̩⁠)⁠っ'
+arg:
+  LINK: "harus berupa link yang benar"
+  TEXT: "harus berupa teks"
+  USER: "harus berupa lid atau tag seseorang"
+  NUMBER: "harus berupa angka"
+  EWWW: "jijik ih"
+
+set: # GROUP (Optional)
+  welcome: "Selamat datang @user di grup @group!"
+  goodbye: "Yahh.. @user telah keluar dari @group"
+  promote: "@user sekarang jadi admin di @group 🔥"
+  demote: "pas gw masuk, @user sudah bukan admin lagi 😹"
+
+developer: "@Guzxx92" # Want to recode the script? Contact me: Guzxx Prime (Yt)
+
+nems: "☘️ ꜱᴄʀɪᴘᴛ ʙʏ ɢᴜᴢxx92"
+title: "Order cannot be broken - "
+body: "꒰ᐢ. .ᐢ꒱ "
+filename1: "☘️ 𝗔𝗻𝗯𝘆 𝗠𝗱"
+filename2: "𝗠𝗶𝘁𝘁𝗲𝗻𝘀"
+packname: "ㅤㅤ" # Sticker
+author: "ㅤㅤ" # Sticker
+jpegfile: "𝚁𝚎𝚌𝚑𝚊𝚗𝚐𝚎 𝚝𝚑𝚎 𝚜𝚎𝚕𝚕𝚎𝚌𝚝𝚒𝚘𝚗"
+#₊ ──────୨────────── 𖦹🍀୭˚.─────────୨────
+#╰┈➤ Guzxx Prime - Yu scrolling too much dummass (js kidding)

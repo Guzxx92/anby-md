@@ -1,0 +1,35 @@
+#₊ ──────୨───── 𖦹🍀୭˚.─────────୨────
+ # WA Bot - Anby md (X-Legacy)
+ # Copyright (C) 2026 @Guzxx92
+ # Licensed GPL-3.0
+ # Original Author: @Guzxx92 - wa.me/6283123448708
+ # Full license: www.gnu.org/licenses/gpl-3.0.txt
+#₊ ──────୨ 𖦹 EN & ID ୭˚.─────────୨────
+
+# Tampilan menu & reply (Optional)
+urls: "https://whatsapp.com/channel/0029Vb5jfyKBqbr7GIkkii1Y"
+sourceurl: "https://chat.whatsapp.com/BSmzS9MStAx8cUa33oNeVz"
+ids: "120363399405036720@newsletter"
+
+# Settingan Default bot (Optional)
+debug: false # debug "messages.upsert", better be clean "false"
+owner: "6283117190494" # Nomor owner asli, Real Owner
+prefix: "." # prefix for running command
+pairKey: "77777777" # custom pairing, 8 code! WAJIB 8 KODE
+
+eventMap:
+  creds.update: "./event/creds-update.js"
+  connection.update: "./event/connection-update.js"
+  messages.upsert: "./event/messages-upsert.js"
+  group-participants.update: "./event/participants-update.js"
+  groups.upsert: "./event/group-upsert.js"
+# List event, DONT TOUCH! ❌ JANGAN DI APA APA IN
+
+api:
+  openrouter: "_" # openrouter api
+  gemini: "_" # gemini api
+
+limit: 32 # limit awal token (cmd) per user, default limit for user
+lang: 'en' # dont delete ts / jangan apus ini 'id' = Indonesia 'en' = English 
+#₊ ──────୨────────── 𖦹🍀୭˚.─────────୨────
+#╰┈➤ Guzxx Prime - Yu scrolling too much dummass (js kidding)

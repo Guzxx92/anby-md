@@ -1,0 +1,97 @@
+#₊ ──────୨───── 𖦹🍀୭˚.─────────୨────
+ # WA Bot - Anby md (X-Legacy)
+ # Copyright (C) 2026 @Guzxx92
+ # Licensed GPL-3.0
+ # Original Author: @Guzxx92 - wa.me/6283123448708
+ # Full license: www.gnu.org/licenses/gpl-3.0.txt
+#₊ ──────────୨ 𖦹 EN ୭˚.─────────୨────
+mess: # REPLY
+  join: '*💚 Successfully joining the group:*'
+  link: '*📡 Link Invalid, try something else*'
+  ftime: "*⏱️ Wrong time format!*\n- Example: 10s, 5m, 2h"
+  jadibot_del: '🧭 *This jadibot number has been successfully deleted*'
+  linked: '» Link the device as soon as possible through menu ⛓️‍💥 Linked Devices. Expire in 5m.'
+  clone_one: '😏 Smart, a *clone make a new clone* huh? listen, you cant create another jadibot.'
+  clone_two: '🍂 *This number is already connected as a bot.*'
+  find: "*🔍 What are you looking for?*"
+  success: "*Bet ✅ Command succesfully!*"
+  update: "*Bet ✅ Succesfully updated!*"
+  done: "*All good ✅ Got it*"
+  owner: "*👑 Owner only. Don't touch*"
+  owner_nowey: "👑 *Denied, you cant cuz you not actually real owner*"
+  realowner: '❗*Hey this is the real owner.*'
+  private: "*DM me only ‼️ Don't use in groups*"
+  group: "*Group only ‼️*"
+  premium: "*☘️ Premium only. Upgrade first*"
+  queue: "*💫 Request is full, try again later pal.*"
+  wait: "*⏳ Requesting... Please wait.*"
+  restart_suc: "*🍰 Restart succesfully*"
+  jadibot: "*You ain't a jadibot user ❌*"
+  admin: "*You ain't admin ❌ No power*"
+  botAdmin: "*Bruh, make me admin first (◍•ᴗ•◍)*"
+  cooldown: "*⏰ Wait @time before using this command again.*"
+  change: '🍡 Successfully changed autoread to'
+  banned: "*You got banned ❌ Shut up.*"
+  error: "*🍅 Error. Please try again later!*"
+  limit: "🍟 *You ran out of limit, you need @limit, your limit: @limit_user*"
+  unavailable: "🎟️ *This command no longer available.*"
+  spam: "🐉 *You got banned cuz spamming for 10 minutes*"
+  media: "🪸 *Send or reply @media to use this command.*"
+  help:  "☘️*Command execute: @cmd*\n- Example: .@cmd @args\n- Help: @example\n\n✨*ᴇxᴘʟᴀɴᴀᴛɪᴏɴ:*"
+  reply: "🍓*Reply with command: @cmd*\n- Example: .@cmd @args\n- Help: @example\n\n✨*ᴇxᴘʟᴀɴᴀᴛɪᴏɴ:*\nto use this command you need reply a message look like this image."
+  reply_or_tag: "*🌸 Reply to messages or tags:*\n- Example tag: .@cmd @args\n\n✨*ᴇxᴘʟᴀɴᴀᴛɪᴏɴ:*\nto use this command you need reply or tag."
+  tag: "*🌸 Tag the user to run the command*"
+  code: "*💫 Please add a code!*"
+  fitur:
+    mode: "*💫 Wrong mode (canceled)*"
+    on: "*Feature already ON ✅*"
+    off: "*Feature already OFF ✅*"
+    maintenance: "*Under maintenance rn 🔧 Chill*"
+    on_off: "*Type on/off to toggle it @cmd 🌻*"
+  plugin:
+    owner: "*Bet ✅ now he has a new owner*"
+    del:
+      not: "*📖 File not found*"
+      more: "☘️ *Found more than one file:*"
+      found: "☘️ *Found it:*"
+      suc: "*🗑️ Files deleted:*"
+    add:
+      denied: "*❌ You path exit from project (rejected)*"
+      ex: "❗ *The file must have the extension .js*"
+      exist: "📚 *The file already exists*"
+      suc: "*📁 File added successfully*"
+  member: 
+    a: '*🍅 No members.*'
+    not: '*🍅 Member not found.*'
+    cr: '*🍅 Cant demote group creator.*'
+    dem: '*🍅 You cant demote yourself.*'
+    warn: "\n⚠️ Process stopped."
+  bot:
+    add: 'Hmp, i dont wanna be here!'
+    promote: 'Thank you sweetie, now im a new admin ❤️'
+    demote: 'Hmm.. you demote me.. how rude.. (⁠っ⁠˘̩⁠╭⁠╮⁠˘̩⁠)⁠っ'
+arg:
+  LINK: "must be the correct link"
+  TEXT: "must be a text"
+  USER: "must be a lid or tag someone"
+  NUMBER: "must be a number"
+  EWWW: "gross"
+
+set: # GROUP (Optional)
+  welcome: "Welcome, welcome @user to @group group!"
+  goodbye: "No bestie.. @user has left @group"
+  promote: "@user now has become an admin in @group 🔥"
+  demote: "when i walk in, @user no longer an admin 😹"
+
+developer: "@Guzxx92" # Want to recode the script? Contact me: Guzxx Prime (Yt)
+
+nems: "☘️ ꜱᴄʀɪᴘᴛ ʙʏ ɢᴜᴢxx92"
+title: "Order cannot be broken - "
+body: "꒰ᐢ. .ᐢ꒱ "
+filename1: "☘️ 𝗔𝗻𝗯𝘆 𝗠𝗱"
+filename2: "𝗠𝗶𝘁𝘁𝗲𝗻𝘀"
+packname: "ㅤㅤ" # Sticker
+author: "ㅤㅤ" # Sticker
+jpegfile: "𝚁𝚎𝚌𝚑𝚊𝚗𝚐𝚎 𝚝𝚑𝚎 𝚜𝚎𝚕𝚕𝚎𝚌𝚝𝚒𝚘𝚗"
+#₊ ──────୨────────── 𖦹🍀୭˚.─────────୨────
+#╰┈➤ Guzxx Prime - Yu scrolling too much dummass (js kidding)
