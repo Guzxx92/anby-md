@@ -1,6 +1,6 @@
 ---
+![BUEGER](preview.jpeg)
 <div align="center">
-![BUEGER](previewjpeg)
 
 *Anby Multi Device*  
 anby md adalah script bot WhatsApp berbasis **ESM (ECMAScript Modules)** dengan arsitektur **Plugin RxJS**. Dirancang ringan, reaktif, dan mudah dikembangkan.
@@ -27,7 +27,7 @@ Saat ini **Anby MD** masih dalam tahap awal pengembangan dan berfokus pada fungs
 ## 🛠️ Tech Stack & Persyaratan Sistem
 
 * **Runtime:** Node.js `v21` ke atas (mendukung penuh format **ESM**) atau [Bun](https://bun.sh/).
-* **Library WhatsApp:** `@whiskeysockets/baileys` (`v7.0.0-rc13`)
+* **Library WhatsApp:** `@rexxhayanasi/elaina-baileys` (`v7.0.0-rc13`)
 * **Arsitektur:** Sistem Plugin berbasis **RxJS**
 * **Dependensi Eksternal:** `git`, `ffmpeg`
 
@@ -82,7 +82,7 @@ bun run start.js
 
 ---
 
-# 🧩 Panduan Membuat Plugin
+## 🧩 Panduan Membuat Plugin
 
 Simpan file plugin baru kamu di dalam folder `./function/plugins/` dengan ekstensi `.js`. Berikut adalah kerangka lengkap beserta seluruh opsi yang didukung:
 
