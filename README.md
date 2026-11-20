@@ -1,7 +1,7 @@
 ![BUEGER](preview.jpeg)
 <div align="center">
 
-*Anby Multi Device*  
+**Anby Multi Device**
 anby md adalah script bot WhatsApp berbasis **ESM (ECMAScript Modules)** dengan arsitektur **Plugin RxJS**. Dirancang ringan, reaktif, dan mudah dikembangkan.
 </div>
 
