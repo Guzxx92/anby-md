@@ -51,7 +51,7 @@ bun install
 cd ~
 pkg update && pkg upgrade
 pkg install git nodejs ffmpeg bun -y
-git clone https://github.com/Guzxx92/Anby-MD
+git clone https://github.com/Guzxx92/anby-md
 cd /anby-md
 bun install
 ```
@@ -84,7 +84,7 @@ bun run start.js
 
 **Versi git clone**
 ```bash
-git clone https://github.com/Guzxx92/Anby-MD
+git clone https://github.com/Guzxx92/anby-md
 cd /anby-md
 
 # Install dependensi
